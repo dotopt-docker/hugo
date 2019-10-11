@@ -1,0 +1,10 @@
+# author: wuxingzhong
+version: '3.7'
+
+services:
+  hugo: 
+    image: wuxingzhong/hugo
+    restart: always    
+    build: 
+      context: .
+      dockerfile: Dockerfile
