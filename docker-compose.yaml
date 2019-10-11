@@ -3,7 +3,7 @@ version: '3.7'
 
 services:
   hugo: 
-    image: wuxingzhong/hugo
+    image: dotopt/hugo
     restart: always    
     build: 
       context: .
